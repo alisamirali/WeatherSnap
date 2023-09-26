@@ -6,7 +6,7 @@ import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import { Provider, useSelector } from "react-redux";
 import store, { persister } from "./src/redux/store";
-import { CustomDrawer } from "./src/component/CustomDrawer";
+import { CustomDrawer } from "./src/components/CustomDrawer";
 
 //Screens
 import LocationScreen from "./src/screens/LocationScreen";
