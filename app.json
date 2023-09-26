@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "weather-snap",
+    "description": "A sleek, contemporary weather app crafted with React Native Expo CLI. Users can retrieve weather details based on their current location or by inputting a city name. The app facilitates the addition and removal of multiple cities and offers both hourly and 3-day forecast insights. Weather Snap's intuitive interface, coupled with a slide-out menu for effortless city navigation, ensures a seamless weather-checking experience.",
+    "slug": "weatherSnap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFE142"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFE142"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
