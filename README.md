@@ -26,8 +26,6 @@ A sleek, contemporary weather app crafted with React Native Expo CLI. Users can 
 
 ## Screenshots
 
-![Weather Snap (1)](https://github.com/sami3898/WeatherSnap/assets/32996863/771ba18c-18ab-45bd-8c7a-cab5dfc13d28)
-
 ## Contributing
 
 Contributions are welcome! Please feel free to open a pull request or submit an issue with any improvements or bug fixes.
