@@ -14,15 +14,15 @@ import { useRoute } from "@react-navigation/native";
 import { COLORS } from "../utils/Colors";
 import { hp, wp } from "../utils/ResponsiveLayout";
 import { FONTS } from "../utils/Fonts";
-import Button from "../Component/Button";
-import Header from "../Component/Header";
+import Button from "../components/Button";
+import Header from "../components/Header";
 import { useDispatch, useSelector } from "react-redux";
 import {
   setIsLoading,
   setSelectedCity,
   setWeatherData,
 } from "../redux/weatherSlice";
-import Loader from "../Component/Loader";
+import Loader from "../components/Loader";
 
 const AddLocation = () => {
   // Objects

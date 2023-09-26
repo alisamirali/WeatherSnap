@@ -4,13 +4,13 @@ import { Alert, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import * as Location from "expo-location";
 import LottieView from "lottie-react-native";
 import { FONTS } from "../utils/Fonts";
-import Button from "../Component/Button";
+import Button from "../components/Button";
 import { hp, wp } from "../utils/ResponsiveLayout";
 import { useNavigation } from "@react-navigation/core";
 import { fetchWeather } from "../utils/ApiHelper";
 import { useDispatch, useSelector } from "react-redux";
 import { setIsLoading, setWeatherData } from "../redux/weatherSlice";
-import Loader from "../Component/Loader";
+import Loader from "../components/Loader";
 import { COLORS } from "../utils/Colors";
 
 const LocationScreen = () => {

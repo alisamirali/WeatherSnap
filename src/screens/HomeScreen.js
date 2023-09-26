@@ -25,7 +25,7 @@ import {
 } from "../redux/weatherSlice";
 import { fetchWeather } from "../utils/ApiHelper";
 import { useNavigation } from "@react-navigation/native";
-import Loader from "../Component/Loader";
+import Loader from "../components/Loader";
 
 const HomeScreen = () => {
   // Redux selector
