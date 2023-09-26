@@ -6,13 +6,13 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { COLORS } from "../Utils/Colors";
-import { hp, wp } from "../Utils/ResponsiveLayout";
-import { FONTS } from "../Utils/Fonts";
+import { COLORS } from "../utils/Colors";
+import { hp, wp } from "../utils/ResponsiveLayout";
+import { FONTS } from "../utils/Fonts";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import { useSelector, useDispatch } from "react-redux";
-import { setSelectedCity } from "../Redux/weatherSlice";
+import { setSelectedCity } from "../redux/weatherSlice";
 
 export const CustomDrawer = () => {
   // Objects

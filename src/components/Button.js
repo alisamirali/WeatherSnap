@@ -1,23 +1,23 @@
-import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { DEVICE_WIDTH, wp } from '../Utils/ResponsiveLayout';
-import { FONTS } from '../Utils/Fonts';
-import { COLORS } from '../Utils/Colors';
+import React from "react";
+import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { DEVICE_WIDTH, wp } from "../utils/ResponsiveLayout";
+import { FONTS } from "../utils/Fonts";
+import { COLORS } from "../utils/Colors";
 
 const Button = ({
-  title = 'button',
+  title = "button",
   buttonStyle,
   buttonTextStyle,
-  mode = 'solid',
+  mode = "solid",
   onPress,
 }) => {
   const containerStyle = [
     styles.container,
     buttonStyle,
     {
-      borderWidth: mode !== 'solid' ? 2 : 0,
+      borderWidth: mode !== "solid" ? 2 : 0,
       borderColor: COLORS.BLACK,
-      backgroundColor: mode !== 'solid' ? COLORS.YELLOW_COLOR : COLORS.BLACK,
+      backgroundColor: mode !== "solid" ? COLORS.YELLOW_COLOR : COLORS.BLACK,
     },
   ];
 
@@ -25,7 +25,7 @@ const Button = ({
     styles.buttonText,
     buttonTextStyle,
     {
-      color: mode !== 'solid' ? COLORS.BLACK : COLORS.WHITE,
+      color: mode !== "solid" ? COLORS.BLACK : COLORS.WHITE,
     },
   ];
 
@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
   container: {
     width: DEVICE_WIDTH - 48,
     height: 52,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     backgroundColor: COLORS.BLACK,
     borderRadius: 12,
   },

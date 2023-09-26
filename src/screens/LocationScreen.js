@@ -3,15 +3,15 @@ import { StatusBar } from "expo-status-bar";
 import { Alert, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import * as Location from "expo-location";
 import LottieView from "lottie-react-native";
-import { FONTS } from "../Utils/Fonts";
+import { FONTS } from "../utils/Fonts";
 import Button from "../Component/Button";
-import { hp, wp } from "../Utils/ResponsiveLayout";
+import { hp, wp } from "../utils/ResponsiveLayout";
 import { useNavigation } from "@react-navigation/core";
-import { fetchWeather } from "../Utils/ApiHelper";
+import { fetchWeather } from "../utils/ApiHelper";
 import { useDispatch, useSelector } from "react-redux";
-import { setIsLoading, setWeatherData } from "../Redux/weatherSlice";
+import { setIsLoading, setWeatherData } from "../redux/weatherSlice";
 import Loader from "../Component/Loader";
-import { COLORS } from "../Utils/Colors";
+import { COLORS } from "../utils/Colors";
 
 const LocationScreen = () => {
   // Objects

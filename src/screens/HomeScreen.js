@@ -11,10 +11,10 @@ import {
   Alert,
 } from "react-native";
 import React, { useEffect, useRef, useState } from "react";
-import { COLORS } from "../Utils/Colors";
+import { COLORS } from "../utils/Colors";
 import Icon from "@expo/vector-icons/MaterialIcons";
-import { DEVICE_WIDTH, hp, wp } from "../Utils/ResponsiveLayout";
-import { FONTS } from "../Utils/Fonts";
+import { DEVICE_WIDTH, hp, wp } from "../utils/ResponsiveLayout";
+import { FONTS } from "../utils/Fonts";
 import LottieView from "lottie-react-native";
 import { useDispatch, useSelector } from "react-redux";
 import moment from "moment";
@@ -22,8 +22,8 @@ import {
   setIsLoading,
   setSelectedCity,
   setWeatherData,
-} from "../Redux/weatherSlice";
-import { fetchWeather } from "../Utils/ApiHelper";
+} from "../redux/weatherSlice";
+import { fetchWeather } from "../utils/ApiHelper";
 import { useNavigation } from "@react-navigation/native";
 import Loader from "../Component/Loader";
 

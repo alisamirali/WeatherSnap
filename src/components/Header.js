@@ -1,9 +1,9 @@
 import React from "react";
 import { View, Text, StyleSheet, StatusBar } from "react-native";
-import { hp, wp } from "../Utils/ResponsiveLayout";
-import { COLORS } from "../Utils/Colors";
+import { hp, wp } from "../utils/ResponsiveLayout";
+import { COLORS } from "../utils/Colors";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { FONTS } from "../Utils/Fonts";
+import { FONTS } from "../utils/Fonts";
 
 const Header = ({ title = "Header Title", onPressButton }) => {
   return (
