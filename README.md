@@ -4,7 +4,7 @@ A sleek, contemporary weather app crafted with React Native Expo CLI. Users can 
 
 ## Features
 
-- Fetch current location or manually enter a city name
+- Fetch the current location or manually enter a city name
 - Add and remove multiple cities
 - Hourly and 3-day forecast data
 - User-friendly UI with a modern design
@@ -25,6 +25,8 @@ A sleek, contemporary weather app crafted with React Native Expo CLI. Users can 
 5. Use the Expo Go app on your mobile device to scan the QR code and open the app
 
 ## Screenshots
+
+![shot](https://github.com/alisamirali/WeatherSnap/assets/62913154/4a5f4078-8986-4e97-b2bc-ed9eabfcc6bc)
 
 ## Contributing
 
